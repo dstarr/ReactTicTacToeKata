@@ -3,10 +3,6 @@ import Square from './Square.js'
 
 export default class Board extends React.Component {
 
-    // constructor(props) {
-    //     super(props);
-    // }
-
     renderSquare(i) {
         return (
             <Square
