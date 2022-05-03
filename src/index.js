@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game from './components/TicTacToe/Game.js'
+import App from './components/App.js';
 import './index.css';
+import { BrowserRouter } from "react-router-dom";
 
 // ========================================
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Game />);
+root.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+);
 
