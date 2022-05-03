@@ -40,7 +40,6 @@ export default class Game extends React.Component {
             stepNumber: history.length,
             xIsNext: !this.state.xIsNext,
         });
-
     }
 
     render() {
