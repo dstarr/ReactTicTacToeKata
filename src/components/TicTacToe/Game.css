@@ -1,6 +1,4 @@
 .game {
-    /* display: flex;
-    flex-direction: row; */
     padding-top: 20px;
 }
 
@@ -10,5 +8,6 @@
 
 .game-status {
     padding-top: 20px;
-    font-size: larger;
+    color: blue;
+    font-size: 40pt;
 }
