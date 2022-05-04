@@ -1,9 +1,14 @@
 .game {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     padding-top: 20px;
 }
 
 .game-info {
-    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.game-status {
+    padding-top: 20px;
+    font-size: larger;
 }
