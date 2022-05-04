@@ -1,5 +1,6 @@
 import React from 'react';
 import Square from './Square.js'
+import './Board.css'
 
 export default class Board extends React.Component {
 
@@ -13,7 +14,6 @@ export default class Board extends React.Component {
     }
 
     render() {
-        
         return (
             <div>
                 <div className="board-row">
